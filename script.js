@@ -54,5 +54,21 @@ function while_loop(){
         i++;
     };
     document.getElementById("whileLoop").innerHTML = text;
+
+}
+
+
+function excluded(min,max){
+    r1 = `this javascript functions always returns a random number between min (included) and max (excluded): ${Math.floor(Math.random()*(max-min)+min)}`;
+    
+document.getElementById("excluded").innerHTML = r1;
+;
+}
+
+function included(min,max){
+    r2 = `this javascript functions always returns a random number between min (included) and max (included): ${Math.floor(Math.random()*(max-min+1)+ min)}`;
+    
+document.getElementById("included").innerHTML = r2;
+;
 }
 

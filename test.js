@@ -1,0 +1,1 @@
+console.log('23' - '10'-'5');//type coersion: converting the type automatically.
